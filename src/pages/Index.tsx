@@ -168,9 +168,9 @@ const Index = () => {
                 </SelectTrigger>
                 <SelectContent>
                   <SelectItem value="all">All Prices</SelectItem>
-                  <SelectItem value="under-1000">Under $1,000</SelectItem>
-                  <SelectItem value="1000-3000">$1,000 - $3,000</SelectItem>
-                  <SelectItem value="over-3000">Over $3,000</SelectItem>
+                  <SelectItem value="under-1000">Under ₹1,000</SelectItem>
+                  <SelectItem value="1000-3000">₹1,000 - ₹3,000</SelectItem>
+                  <SelectItem value="over-3000">Over ₹3,000</SelectItem>
                 </SelectContent>
               </Select>
               
