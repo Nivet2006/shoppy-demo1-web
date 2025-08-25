@@ -121,7 +121,7 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Star className="w-4 h-4" />
-            <span>Gems & Jewelry</span>
+            <span>This is a Demo Site!</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-luxury to-accent bg-clip-text text-transparent mb-6 leading-tight">
             Discover Rare

@@ -14,7 +14,7 @@ const Header = () => {
             <div className="w-4 h-4 bg-accent rounded-full animate-pulse"></div>
           </div>
           <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-luxury bg-clip-text text-transparent">
-            Gem Sparkle Cart
+            Demo 1
           </h1>
         </div>
         
