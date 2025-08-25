@@ -35,7 +35,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     
     toast({
       title: "Added to cart!",
-      description: `₹{product.name} has been added to your cart.`,
+      description: `${product.name} has been added to your cart.`,
     });
     
     setTimeout(() => setIsAdding(false), 500);
