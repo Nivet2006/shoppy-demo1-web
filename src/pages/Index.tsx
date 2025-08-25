@@ -121,15 +121,15 @@ const Index = () => {
         <div className="container mx-auto text-center">
           <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-6">
             <Star className="w-4 h-4" />
-            <span>Premium Quality Gems & Jewelry</span>
+            <span>Gems & Jewelry</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold bg-gradient-to-r from-primary via-luxury to-accent bg-clip-text text-transparent mb-6 leading-tight">
             Discover Rare
             <br />
-            <span className="text-4xl md:text-6xl">Gems & Precious Stones</span>
+            <span className="text-4xl md:text-6xl">Gems & Stones</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Curated collection of the world's most exquisite gems, each piece handpicked for its exceptional beauty and quality.
+            Curated collection of the most exquisite gems, each piece handpicked for its exceptional beauty and quality.
           </p>
         </div>
       </section>
