@@ -66,7 +66,7 @@ const CartSidebar = () => {
                       <h3 className="font-medium truncate">{item.name}</h3>
                       <p className="text-sm text-muted-foreground">{item.type}</p>
                       <p className="text-sm font-medium text-primary">
-                        ${item.price.toLocaleString()}
+                        ₹{item.price.toLocaleString()}
                       </p>
                     </div>
                     <div className="flex flex-col items-end space-y-2">
@@ -112,15 +112,15 @@ const CartSidebar = () => {
               <div className="space-y-2">
                 <div className="flex justify-between text-sm">
                   <span>Subtotal</span>
-                  <span>${subtotal.toLocaleString()}</span>
+                  <span>₹{subtotal.toLocaleString()}</span>
                 </div>
                 <div className="flex justify-between text-sm">
                   <span>Tax</span>
-                  <span>${tax.toFixed(2)}</span>
+                  <span>₹{tax.toFixed(2)}</span>
                 </div>
                 <div className="flex justify-between font-semibold text-lg border-t pt-2">
                   <span>Total</span>
-                  <span className="text-primary">${total.toFixed(2)}</span>
+                  <span className="text-primary">₹{total.toFixed(2)}</span>
                 </div>
               </div>
               

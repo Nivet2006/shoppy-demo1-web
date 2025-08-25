@@ -35,7 +35,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
     
     toast({
       title: "Added to cart!",
-      description: `${product.name} has been added to your cart.`,
+      description: `₹{product.name} has been added to your cart.`,
     });
     
     setTimeout(() => setIsAdding(false), 500);
@@ -67,7 +67,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
         
         <div className="flex items-center justify-between">
           <span className="text-2xl font-bold bg-gradient-to-r from-primary to-luxury bg-clip-text text-transparent">
-            ${product.price.toLocaleString()}
+            ₹{product.price.toLocaleString()}
           </span>
           
           <Button
@@ -75,7 +75,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             disabled={isAdding}
             className="bg-gradient-to-r from-primary to-primary-glow hover:from-primary-glow hover:to-primary shadow-lg hover:shadow-premium transition-all duration-300 group/btn"
           >
-            <Plus className={`w-4 h-4 mr-2 transition-transform duration-300 ${isAdding ? 'rotate-90' : 'group-hover/btn:rotate-90'}`} />
+            <Plus className={`w-4 h-4 mr-2 transition-transform duration-300 ₹{isAdding ? 'rotate-90' : 'group-hover/btn:rotate-90'}`} />
             {isAdding ? 'Adding...' : 'Add to Cart'}
           </Button>
         </div>
